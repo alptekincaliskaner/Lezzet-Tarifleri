@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="162dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="TATLILAR"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="169dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/gullac" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GÜLLAÇ"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:text="Güllaç tatlısını yapmak için; öncelikle süt ve şekeri tencereye alarak ısıtıyoruz, şekerler tamamen erisin. Bu aşamada sütü çok fazla ısıtmanıza gerek yok, şekerin erimesi yeterli olacaktır. Daha sonra sütü oda sıcaklığında ılınmaya bırakıyoruz. Eğer el yakmayacak şekilde ısıttıysanız tekrar ılıması için beklemenize gerek olmayacaktır. Süt kaynar olursa tatlınız hamur olur o nedenle el yakmayacak şekilde olmalı. Güllaç yaprağının parlak kısmı üste gelecek şekilde ilkini derince bir tepsiye koyuyoruz. Üzerine her yanı ıslanacak şekilde bir iki kepçe süt döküyoruz. Altı güllaç yaprağı için aynı işlemi tekrarlayalım ve 6. katı da ıslattıktan sonra bu kata ceviz serpelim ve üzerine diğer güllaç yapraklarını aynı şekilde ıslatarak serelim. Kalan şekerli sütün içerisine 2 yemek kaşığı gül suyu ekleyip tatlının üzerine gezdirelim. Burada kullandığınız gül suyunun kozmetik ürünü olmamasına dikkat etmelisiniz. Hazırladığımız tatlımızı 2 saat kadar buzdolabında muhafaza edelim. En az 2-3 saat dinlendirdikten sonra üzerini isteğe göre süsleyerek servis edebilirsiniz. Ben toz antep fıstığı ve kiraz şekerlemeleri ile süsledim. Afiyet olsun!" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="170dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            app:srcCompat="@drawable/sutlac" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SÜTLAÇ"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:text="Sütlaç yapmak için öncelikle pirinci yıkayıp su ile ateşe koyun. Pirinçler uzayıp suyu çekene kadar kaynatın. Ocağı çok yüksek ateşte açarak pirinçleri yakmamaya dikkat edin. Ardında soğuk sütü ekleyin. 1-2 defa karıştırıp, kaynamasını bekleyin. Bu arada bir kasede pirinç ununu 1 su bardağı soğuk süt ile ezin. Topak kalmamasına mutlaka dikkat edin. Tencerede kaynamakta olan sütten 1-2 kepçe alıp kaseye ekleyin. (pirinç unu ılınmış olmalı). Pirinç ununu tencereye ekleyin, ara sıra karıştırarak 10 dakika kadar pişirin. Toz şekeri ilave edip karıştırın ve 1-2 taşım daha kaynatın. Sütlacı kaselere paylaştırın. Soğuyunca sütlaçların üzerlerine tarçın serperek servis edebilirsiniz. Afiyet olsun." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="169dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="240dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            app:srcCompat="@drawable/sekerpare" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ŞEKERPARE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:text="Şekerparenin şerbeti için uygun bir tencereye toz şekeri alalım. Üzerine suyu ilave ederek şöyle bir karıştıralım. Kaynamaya başladıktan sonra ocağı orta ateşe alarak 6-7 dakika boyunca kaynatalım. Ardından birkaç damla limon suyunu ekleyip bu şekilde de 2 dakika kaynattıktan sonra şerbeti ocaktan alalım. Hamur için oda sıcaklığında tereyağı, birinin sarısını üzeri için ayırdığımız yumurta, irmik, pudra şekeri, vanilya, karbonat, kabartma tozu ve unun bir kısmını ilave ederek yoğurmaya başlayalım. Hamur ele yapışmayan bir kıvam alıncaya kadar un eklemeye devam edelim. Şekillendirmek için hamurdan bir parça koparıp önce elimizle yuvarlayalım. Ardından üzerine hafifçe bastırdıktan sonra uç kısımlarını sivrileştirelim. Hazırladığımız şekerpareleri fırın tepsisine aralıklı olarak dizelim. Ardından üzerlerine hamuru hazırlarken ayırdığımız yumurta sarısını bir fırça yardımıyla sürelim. Fırına vermeden önce çatalın arka kısmıyla tatlıların üzerini çizerek son şeklini verelim. Şekerparelerimizi önceden ısıttığımız 180 derece fırında üzerleri güzelce kızarıncaya kadar yaklaşık 30 dakika pişirelim. Sürenin sonunda fırından aldığımız sıcak şekerpareleri bir borcama aktaralım. Üzerlerine soğuyan şerbeti gezdirelim. Tatlılarımızı bu şekilde birkaç saat dinlenmeye bırakalım. Şerbetini güzelce çeken şekerpareleri dilediğiniz gibi süsledikten sonra servis edebilirsiniz. Afiyet olsun!" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="171dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/tiramisu" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TİRAMİSU"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:text="Öncelikle muhallebi için şeker, un, süt ve yumurta çırpılır. Ocakta kaynayıncaya kadar karıştırılarak pişirilir. Kaynadıktan sonra altı kapatılır ve daha hızlı soğuması için ayrı bir kaba boşaltılır. 15 dk kadar bekleyip ılındıktan sonra labne peyniri ilave edilip mikser ile pürüzsüz hale gelene kadar çırpılır. Diğer taraftan sıcak su içinde hazır kahve çözdürülerek hazırlanır ve hafif soğuması beklenir. Servis tabağına pandispanya kekinin bir katı yerleştirilerek kahvenin yarısı ile ıslatılır. Üzerine kremanın yarısı ilave edilip güzelce yayılır. Kalan kahve ile üst kat da ıslatıldıktan sonra pandispanyanın ikinci katı kremanın üzerine kapatılır. Kalan krema pastanın üzerine dökülerek pastanın üzeri ve kenarları güzelce spatula veya pasta sıvama aparatı ile kapatılır. Son olarak pastanın üzerine süzgeç yardımı ile kakao serpilir. Buzdolabında birkaç saat mümkünse 1 gece dinlendirildikten sonra dilimlenerek servis edilir." />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="anasayfa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
